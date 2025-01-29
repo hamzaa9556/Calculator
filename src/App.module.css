@@ -1,7 +1,7 @@
 .Calculator{
     border-radius: 5px ;
-    width: 200px;
+    width: 300px;
     border: 1px solid rgb(59, 58, 58);
     justify-content: center;
-
+    background-color: rgb(184, 178, 206);
 }

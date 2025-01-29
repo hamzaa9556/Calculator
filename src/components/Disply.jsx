@@ -1,5 +1,12 @@
 import styles from "./Disply.module.css";
-function Disply() {
-  return <input className={styles.disply} type="text" />;
-}
-export default Disply;
+const Display = ({ displyValue }) => {
+  return (
+    <input
+      className={styles.disply}
+      type="text"
+      value={displyValue || ""}
+      readOnly
+    />
+  );
+};
+export default Display;
