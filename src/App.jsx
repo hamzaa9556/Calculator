@@ -17,17 +17,10 @@ function App() {
   };
   return (
     <center>
-<<<<<<< HEAD
     <div className={styles.Calculator}>
       <Display displyValue={calVal}></Display>
       <Buttons onClickButton={onClickButton}></Buttons>
     </div>
-=======
-      <div className={styles.Calculator}>
-        <Disply></Disply>
-        <Buttons></Buttons>
-      </div>
->>>>>>> 08576beecb1b82fd99568aed38a902ccb295f507
     </center>
   );
 }
