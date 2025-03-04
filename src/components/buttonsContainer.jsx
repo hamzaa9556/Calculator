@@ -27,10 +27,16 @@ function Buttons({ onClickButton }) {
       {buttonsName.map((buttonName, index) => (
         <button
           key={index}
+<<<<<<< HEAD
           className={`${styles.button}
            
           `}
           onClick={() => onClickButton(buttonName)}
+=======
+          className={`${styles.button} ${
+            buttonName === "0" ? styles.zero : ""
+          }`}
+>>>>>>> 08576beecb1b82fd99568aed38a902ccb295f507
         >
           {buttonName}
         </button>
